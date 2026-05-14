@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-import template_python
+import rustarium
 
 
 @pytest.mark.smoke
@@ -17,6 +17,6 @@ def test___all__() -> None:
         "configure_logger",
         "logger",
     ]
-    assert template_python.__all__ == expected_exports
+    assert rustarium.__all__ == expected_exports
     for export_name in expected_exports:
-        assert hasattr(template_python, export_name)
+        assert hasattr(rustarium, export_name)

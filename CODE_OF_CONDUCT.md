@@ -1,4 +1,4 @@
-# Code of Conduct for `template-python`
+# Code of Conduct for `rustarium`
 
 ## Our Pledge
 
@@ -62,7 +62,7 @@ representative at an online or offline event.
 > Instances of abusive, harassing, or otherwise unacceptable behavior may be
 > reported to the community leaders responsible for enforcement by contacting
 >
-> <!-- conduct@example.com -->
+> <!--  -->
 
 All complaints will be reviewed and investigated promptly and fairly.
 

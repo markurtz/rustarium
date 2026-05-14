@@ -10,15 +10,15 @@ hide:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/branding/logo-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/branding/logo-light.svg">
-  <img alt="template-python Logo" src="assets/branding/logo-light.svg" width="400">
+  <img alt="rustarium Logo" src="assets/branding/logo-light.svg" width="400">
 </picture>
 
-# template-python
+# rustarium
 
-**An opinionated, production-ready Apache 2.0 template repository for bootstrapping modern software projects.**
+**A high-performance, telemetrized process orchestrator and sandbox for Python and WASM, forged in Rust.**
 
 [Get Started](getting-started/index.md){ .md-button .md-button--primary }
-<a href="https://github.com/markurtz/template-python" class="md-button">View on GitHub</a>
+<a href="https://github.com/markurtz/rustarium" class="md-button">View on GitHub</a>
 
 </div>
 </div>
@@ -64,7 +64,7 @@ Step-by-step guides for common tasks, integrations, and configuration patterns.
 
 ______________________________________________________________________
 
-Runnable code examples that demonstrate real-world usage of template-python.
+Runnable code examples that demonstrate real-world usage of rustarium.
 
 [:octicons-arrow-right-24: See Examples](examples/index.md)
 
@@ -108,15 +108,15 @@ Our security policy, responsible disclosure process, and supported versions.
 ## Quick Install
 
 ```bash
-pip install template-python
+pip install rustarium
 ```
 
 For advanced installation options, and step-by-step onboarding, see the [Installation Guide](getting-started/installation.md).
 
 ## Links
 
-- :material-github: <a href="https://github.com/markurtz/template-python">GitHub Repository</a>
-- :material-map-marker-path: <a href="https://github.com/markurtz/template-python/milestones">Roadmap</a>
+- :material-github: <a href="https://github.com/markurtz/rustarium">GitHub Repository</a>
+- :material-map-marker-path: <a href="https://github.com/markurtz/rustarium/milestones">Roadmap</a>
 
 <!-- - :material-post-outline: <a href="{{ blog_url }}">Blog</a> -->
 

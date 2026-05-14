@@ -1,6 +1,6 @@
 # Testing Guide
 
-This directory contains the testing suite for `template-python`. We use `pytest` as our testing framework and `hatch` to manage test environments and execution.
+This directory contains the testing suite for `rustarium`. We use `pytest` as our testing framework and `hatch` to manage test environments and execution.
 
 ## Test Tiers
 
@@ -70,7 +70,7 @@ from __future__ import annotations
 
 import pytest
 
-from template_python import my_module
+from rustarium import my_module
 
 
 @pytest.mark.smoke

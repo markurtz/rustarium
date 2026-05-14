@@ -161,7 +161,7 @@ nosetests.xml
 # ==============================================================================
 
 # Python
-src/template_python/version.py
+src/rustarium/version.py
 __pycache__/
 *.py[cod]
 *$py.class

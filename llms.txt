@@ -1,20 +1,20 @@
-# template-python
+# rustarium
 
-> An opinionated, production-ready Apache 2.0 template repository for bootstrapping modern software projects.
+> A high-performance, telemetrized process orchestrator and sandbox for Python and WASM, forged in Rust.
 
-`template-python` is designed to eliminate boilerplate and enforce consistency across an organization's repositories.
+`rustarium` is designed to eliminate boilerplate and enforce consistency across an organization's repositories.
 For comprehensive context and full documentation, please see [llms-full.txt](llms-full.txt).
 
 ## Docs
-- [Home](https://markurtz.github.io/template-python/): Documentation site home page
-- [Getting Started](https://markurtz.github.io/template-python/getting-started/): Installation, quickstart, and workflow guides
-- [Guides](https://markurtz.github.io/template-python/guides/): How-to guides for common tasks
-- [API Reference](https://markurtz.github.io/template-python/reference/): Full API reference documentation
+- [Home](https://markurtz.github.io/rustarium/): Documentation site home page
+- [Getting Started](https://markurtz.github.io/rustarium/getting-started/): Installation, quickstart, and workflow guides
+- [Guides](https://markurtz.github.io/rustarium/guides/): How-to guides for common tasks
+- [API Reference](https://markurtz.github.io/rustarium/reference/): Full API reference documentation
 
 ## Repository Files
-- [README.md](https://github.com/markurtz/template-python/blob/main/README.md): Project overview and quick start
-- [AGENTS.md](https://github.com/markurtz/template-python/blob/main/AGENTS.md): AI agent coding instructions
-- [DEVELOPING.md](https://github.com/markurtz/template-python/blob/main/DEVELOPING.md): Developer setup guide
+- [README.md](https://github.com/markurtz/rustarium/blob/main/README.md): Project overview and quick start
+- [AGENTS.md](https://github.com/markurtz/rustarium/blob/main/AGENTS.md): AI agent coding instructions
+- [DEVELOPING.md](https://github.com/markurtz/rustarium/blob/main/DEVELOPING.md): Developer setup guide
 
 ## Optional
-- [Full Documentation](https://markurtz.github.io/template-python/llms-full.txt): The complete concatenated documentation for template-python
+- [Full Documentation](https://markurtz.github.io/rustarium/llms-full.txt): The complete concatenated documentation for rustarium

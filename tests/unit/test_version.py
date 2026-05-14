@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from template_python import version
+from rustarium import version
 
 
 class TestVersionMetadata:

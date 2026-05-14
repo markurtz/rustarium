@@ -1,26 +1,26 @@
 ---
-site_name: "template-python"
-site_description: "An opinionated, production-ready Apache 2.0 template repository for bootstrapping\
-  \ modern software projects."
+site_name: "rustarium"
+site_description: "A high-performance, telemetrized process orchestrator and sandbox for Python\
+  \ and WASM, forged in Rust."
 site_author: "markurtz"
-site_url: "https://markurtz.github.io/template-python/"
-repo_url: "https://github.com/markurtz/template-python"
-repo_name: "markurtz/template-python"
+site_url: "https://markurtz.github.io/rustarium/"
+repo_url: "https://github.com/markurtz/rustarium"
+repo_name: "markurtz/rustarium"
 edit_uri: edit/main/docs/
 extra:
   version:
     provider: mike
-  project_name: "template_python"
-  project_description: "An opinionated, production-ready Apache 2.0 template repository for\
-    \ bootstrapping modern software projects."
+  project_name: "rustarium"
+  project_description: "A high-performance, telemetrized process orchestrator and sandbox\
+    \ for Python and WASM, forged in Rust."
   org_name: "markurtz"
-#  org_email: "conduct@example.com"
-  docs_url: "https://markurtz.github.io/template-python"
+#  org_email: ""
+  docs_url: "https://markurtz.github.io/rustarium/"
   min_python: "3.9"
   current_major_version: "0"
 #  slack_url: "https://slack.example.com"
 #  blog_url: "https://blog.example.com"
-  roadmap_url: "https://github.com/markurtz/template-python/milestones"
+  roadmap_url: "https://github.com/markurtz/rustarium/milestones"
 theme:
   name: material
   logo: assets/branding/icon-white.svg

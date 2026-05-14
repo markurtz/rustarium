@@ -8,7 +8,7 @@ import pytest
 from pydantic import ValidationError
 from pydantic_settings import BaseSettings
 
-from template_python.settings import Settings
+from rustarium.settings import Settings
 
 
 class TestSettings:
@@ -29,7 +29,7 @@ class TestSettings:
         """Verify the class signature and extensions."""
         assert issubclass(Settings, BaseSettings)
         assert hasattr(Settings, "model_config")
-        assert Settings.model_config.get("env_prefix") == "TEMPLATE_PYTHON__"
+        assert Settings.model_config.get("env_prefix") == "RUSTARIUM__"
         assert "project_root" in Settings.model_fields
         assert "environment" in Settings.model_fields
 

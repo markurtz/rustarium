@@ -1,4 +1,4 @@
-"""Integration tests for the template_python core modules."""
+"""Integration tests for the rustarium core modules."""
 
 from __future__ import annotations
 
@@ -8,10 +8,10 @@ from io import StringIO
 
 import pytest
 
-import template_python.logging as logging_module
-from template_python.__main__ import main
-from template_python.logging import LoggingSettings, configure_logger
-from template_python.version import (
+import rustarium.logging as logging_module
+from rustarium.__main__ import main
+from rustarium.logging import LoggingSettings, configure_logger
+from rustarium.version import (
     __BUILD_METADATA__,
     __GIT_METADATA__,
     __VERSION_METADATA__,
@@ -45,8 +45,8 @@ class TestMain:
             settings.enqueue = False
             original_configure(settings)
 
-        monkeypatch.setattr("template_python.__main__.configure_logger", mock_configure)
-        monkeypatch.setattr(sys, "argv", ["template_python"])
+        monkeypatch.setattr("rustarium.__main__.configure_logger", mock_configure)
+        monkeypatch.setattr(sys, "argv", ["rustarium"])
 
         with pytest.raises(SystemExit) as exc_info:
             main()

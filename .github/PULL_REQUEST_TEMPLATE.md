@@ -1,5 +1,5 @@
 <!--
-Thanks for contributing to template-python!
+Thanks for contributing to rustarium!
 Please review the [Contributing Guidelines](../CONTRIBUTING.md) before submitting your PR.
 -->
 
@@ -57,11 +57,11 @@ please add screenshots, terminal output, or recordings to demonstrate the change
 ## Checklist
 
 > [!IMPORTANT]
-> Please review and complete this checklist before submitting your PR. This helps our maintainers process your contribution faster and ensures it meets the quality standards of `template-python`.
+> Please review and complete this checklist before submitting your PR. This helps our maintainers process your contribution faster and ensures it meets the quality standards of `rustarium`.
 
 - [ ] "I certify that all code in this PR is my own, except as noted below."
 - [ ] I have read the [CONTRIBUTING.md](../CONTRIBUTING.md) guide.
-- [ ] My code follows the established style guidelines of `template-python`.
+- [ ] My code follows the established style guidelines of `rustarium`.
 - [ ] I have performed a self-review of my own code.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
 - [ ] I have made corresponding changes to the documentation.

@@ -1,6 +1,6 @@
 ---
 name: 🐛 Bug Report
-description: Create a report to help us improve template-python
+description: Create a report to help us improve rustarium
 labels:
   - "bug"
   - "triage"
@@ -8,10 +8,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug to `template-python`!
+        Thanks for taking the time to report a bug to `rustarium`!
         > [!IMPORTANT]
         > If you have found a **security vulnerability**, please refer to our [Security Policy](../SECURITY.md) and do not open a public issue.
-        For general help and Q&A, please use [GitHub Discussions](https://github.com/markurtz/template-python/discussions) instead.
+        For general help and Q&A, please use [GitHub Discussions](https://github.com/markurtz/rustarium/discussions) instead.
   - type: checkboxes
     id: checks
     attributes:
@@ -19,10 +19,10 @@ body:
       description: Please confirm that you have checked the following before submitting your
         bug report.
       options:
-        - label: I have searched the [existing issues](https://github.com/markurtz/template-python/issues)
+        - label: I have searched the [existing issues](https://github.com/markurtz/rustarium/issues)
             and could not find a similar bug.
           required: true
-        - label: I have read the [Official Documentation](https://markurtz.github.io/template-python).
+        - label: I have read the [Official Documentation](https://markurtz.github.io/rustarium).
           required: true
   - type: textarea
     id: description
@@ -60,7 +60,7 @@ body:
       value: |
         - OS (e.g., Linux, macOS, Windows):
         - Language Version (e.g., Python 3.10):
-        - `template-python` Version:
+        - `rustarium` Version:
         - Other relevant dependency versions:
     validations:
       required: true

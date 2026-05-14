@@ -5,7 +5,7 @@
 
 ## Project Context
 
-**`rustarium`** is a production-ready Apache 2.0 template repository for bootstrapping modern software projects.
+**`rustarium`** A high-performance, telemetrized process orchestrator and sandbox for Python and WASM, forged in Rust.
 **Primary language:** `Python 3.10+`\
 **Package manager:** `Hatch`
 

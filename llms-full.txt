@@ -172,7 +172,7 @@ If you use this template or the resulting software in your research, please cite
 
 ```bibtex
 @software{rustarium,
-  author = {@markurtz},
+  author = {markurtz},
   title = {rustarium},
   year = 2026,
   url = {https://github.com/markurtz/rustarium}
@@ -189,7 +189,7 @@ If you use this template or the resulting software in your research, please cite
 
 ## Project Context
 
-**`rustarium`** is a production-ready Apache 2.0 template repository for bootstrapping modern software projects.
+**`rustarium`** A high-performance, telemetrized process orchestrator and sandbox for Python and WASM, forged in Rust.
 **Primary language:** `Python 3.10+`\
 **Package manager:** `Hatch`
 

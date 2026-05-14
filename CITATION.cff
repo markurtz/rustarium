@@ -6,7 +6,7 @@ cff-version: 1.2.0
 title: "rustarium"
 message: "If you use this software, please cite it as below."
 type: software
-date-released: "{{date_released}}"
+date-released: 2026-01-01
 license: Apache-2.0
 
 # You can list individual authors or an organization.

@@ -33,9 +33,9 @@ updates:
     commit-message:
       prefix: "chore(actions)"
     reviewers:
-      - "@markurtz"
+      - "markurtz"
     assignees:
-      - "@markurtz"
+      - "markurtz"
     open-pull-requests-limit: 5
 
   # ── Python (pip) ────────────────────────────────────────────────────────────
@@ -56,9 +56,9 @@ updates:
     commit-message:
       prefix: "chore(deps)"
     reviewers:
-      - "@markurtz"
+      - "markurtz"
     assignees:
-      - "@markurtz"
+      - "markurtz"
     open-pull-requests-limit: 5
 
   # ── Docker ───────────────────────────────────────────────────────────────────
@@ -75,7 +75,7 @@ updates:
     commit-message:
       prefix: "chore(docker)"
     reviewers:
-      - "@markurtz"
+      - "markurtz"
     assignees:
-      - "@markurtz"
+      - "markurtz"
     open-pull-requests-limit: 3

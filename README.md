@@ -15,15 +15,13 @@
   <a href="https://github.com/markurtz/rustarium/releases">
     <img src="https://img.shields.io/github/v/release/markurtz/rustarium?label=Release" alt="GitHub Release">
   </a>
-<a href="https://pypi.org/project/rustarium/">
+  <a href="https://pypi.org/project/rustarium/">
     <img src="https://img.shields.io/pypi/v/rustarium?label=PyPI" alt="PyPI Release">
   </a>
-
-<a href="https://pypi.org/project/rustarium/">
+  <a href="https://pypi.org/project/rustarium/">
     <img src="https://img.shields.io/pypi/pyversions/rustarium?label=Python" alt="Supported Python Versions">
   </a>
-
-<br/>
+  <br/>
   <!-- CI/CD & Build Status -->
   <a href="https://github.com/markurtz/rustarium/actions/workflows/main.yml">
     <img src="https://github.com/markurtz/rustarium/actions/workflows/main.yml/badge.svg" alt="CI Status">
@@ -60,26 +58,15 @@ ______________________________________________________________________
   </picture>
 </p>
 
-Welcome to the rustarium template repository! This template provides a robust foundation for building high-quality, scalable software projects. It includes standard directories, issue templates, CI/CD workflows, and comprehensive placeholder documentation.
-
-To use this template, run the included `scripts/bootstrap.py` script via `uv run` to automatically replace all placeholder variables with your project details. For full setup instructions including GitHub settings, publishing, and docs, see the **[Repository Setup Guide](https://markurtz.github.io/rustarium/guides/repository-setup/)**.
+Welcome to the rustarium repository!
 
 ### Why Use rustarium?
 
-- **Consistency:** Enforces a standardized layout and structure across your organization's repositories.
-- **Speed:** Bootstraps your project with pre-configured Actions, badges, and templates so you don't start from scratch.
-- **Best Practices:** Baked-in guides for contributing, security, and developer setup.
+Coming soon!
 
 ### Comparisons
 
-When evaluating rustarium against other templates, consider the following differences:
-
-| Feature            | rustarium Template                                                                                   | Standard GitHub Init | Cookiecutter / Copier      |
-| :----------------- | :--------------------------------------------------------------------------------------------------- | :------------------- | :------------------------- |
-| **Setup Speed**    | Very Fast                                                                                            | Fast                 | Slower (requires CLI tool) |
-| **Visual Assets**  | Pre-configured Light/Dark assets                                                                     | None                 | Varies                     |
-| **CI/CD Built-in** | Yes (GitHub Actions)                                                                                 | No                   | Optional                   |
-| **Complexity**     | Low ([`scripts/bootstrap.py`](https://github.com/markurtz/rustarium/blob/main/scripts/bootstrap.py)) | None                 | Medium (Jinja templates)   |
+Coming soon!
 
 ## What's New
 
@@ -91,13 +78,7 @@ This project has just been instantiated from the template repository. Keep an ey
 
 ## Quick Start
 
-```bash
-uv run scripts/bootstrap.py
-```
-
-The script will interactively prompt you for your project details (organization, project name, descriptions, and feature toggles) and automatically configure the repository.
-
-For full setup instructions including GitHub settings, publishing, and docs, see the **[Repository Setup Guide](https://markurtz.github.io/rustarium/guides/repository-setup/)**.
+Coming soon!
 
 ## Core Concepts
 
@@ -142,11 +123,11 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](https:/
 
 ### Citations
 
-If you use this template or the resulting software in your research, please cite it using the following BibTeX entry:
+If you use this repository or the resulting software in your research, please cite it using the following BibTeX entry:
 
 ```bibtex
 @software{rustarium,
-  author = {@markurtz},
+  author = {markurtz},
   title = {rustarium},
   year = 2026,
   url = {https://github.com/markurtz/rustarium}

@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/community/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/community/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/community/agents/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/community/agents/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/community/code-of-conduct/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/community/code-of-conduct/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/community/contributing/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/community/contributing/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/community/developing/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/community/developing/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/community/security/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/community/security/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/community/support/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/community/support/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/examples/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/examples/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/getting-started/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/getting-started/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/getting-started/installation/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/getting-started/installation/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/getting-started/quickstart/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/getting-started/quickstart/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/guides/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/guides/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/guides/github-workflows/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/guides/github-workflows/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/guides/repository-setup/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/guides/repository-setup/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/reference/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/reference/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/reference/api/SUMMARY/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/reference/api/SUMMARY/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/reference/api/template_python/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/reference/api/rustarium/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/reference/api/template_python/compat/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/reference/api/rustarium/compat/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/reference/api/template_python/logging/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/reference/api/rustarium/logging/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://markurtz.github.io/template-python/dev/reference/api/template_python/settings/</loc>
+         <loc>https://markurtz.github.io/rustarium/dev/reference/api/rustarium/settings/</loc>
          <lastmod>2026-05-14</lastmod>
     </url>
 </urlset>

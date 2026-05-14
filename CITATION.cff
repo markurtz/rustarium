@@ -3,10 +3,10 @@
 # For more information on the CFF format, see: https://citation-file-format.github.io/
 
 cff-version: 1.2.0
-title: "template-python"
+title: "rustarium"
 message: "If you use this software, please cite it as below."
 type: software
-date-released: "{{date_released}}"
+date-released: 2026-01-01
 license: Apache-2.0
 
 # You can list individual authors or an organization.
@@ -17,5 +17,5 @@ authors:
 #    given-names: "{{author_given_name}}"
 #    orcid: "https://orcid.org/{{orcid}}"
 
-repository-code: "https://github.com/markurtz/template-python"
-url: "https://markurtz.github.io/template-python"
+repository-code: "https://github.com/markurtz/rustarium"
+url: "https://markurtz.github.io/rustarium"

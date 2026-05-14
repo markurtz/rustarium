@@ -3,9 +3,9 @@ requires = ["hatchling", "gitversioned[hatchling]"]
 build-backend = "hatchling.build"
 
 [project]
-name = "template-python"
+name = "rustarium"
 dynamic = ["version"]
-description = "An opinionated, production-ready Apache 2.0 template repository for bootstrapping modern software projects."
+description = "A high-performance, telemetrized process orchestrator and sandbox for Python and WASM, forged in Rust."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "Apache-2.0" }
@@ -69,13 +69,13 @@ docs = [
 ]
 
 [project.scripts]
-template-python = "template_python.__main__:main"
+rustarium = "rustarium.__main__:main"
 
 [project.urls]
-Homepage = "https://github.com/markurtz/template-python"
-Repository = "https://github.com/markurtz/template-python.git"
-Issues = "https://github.com/markurtz/template-python/issues"
-Documentation = "https://markurtz.github.io/template-python/"
+Homepage = "https://github.com/markurtz/rustarium"
+Repository = "https://github.com/markurtz/rustarium.git"
+Issues = "https://github.com/markurtz/rustarium/issues"
+Documentation = "https://markurtz.github.io/rustarium/"
 
 [tool.hatch.version]
 source = "gitversioned"
@@ -175,12 +175,12 @@ exclude = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/template_python"]
+packages = ["src/rustarium"]
 
 
 # --- Tool Configurations ---
 [tool.mypy]
-files = ["src/template_python", "tests"]
+files = ["src/rustarium", "tests"]
 python_version = "3.10"
 warn_redundant_casts = true
 warn_unused_ignores = false
@@ -193,7 +193,7 @@ ignore_missing_imports = true
 [tool.ruff]
 line-length = 88
 indent-width = 4
-exclude = ["build", "dist", "env", ".venv", "src/template_python/version.py"]
+exclude = ["build", "dist", "env", ".venv", "src/rustarium/version.py"]
 
 [tool.ruff.format]
 quote-style = "double"
@@ -290,7 +290,7 @@ select = [
 ]
 
 [tool.ruff.lint.isort]
-known-first-party = ["template_python", "tests"]
+known-first-party = ["rustarium", "tests"]
 
 [tool.pytest.ini_options]
 addopts = "-s -vvv --cache-clear"

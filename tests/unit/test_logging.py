@@ -10,7 +10,7 @@ import pytest
 from loguru import logger as global_logger
 from pydantic_settings import BaseSettings
 
-from template_python.logging import LoggingSettings, configure_logger
+from rustarium.logging import LoggingSettings, configure_logger
 
 
 @pytest.fixture(autouse=True)
@@ -18,7 +18,7 @@ def reset_logger_fixture() -> Generator[None, None, None]:
     """Ensure loggers are cleared after each test."""
     yield
     global_logger.remove()
-    global_logger.enable("template_python")
+    global_logger.enable("rustarium")
 
 
 class TestLoggingSettings:
@@ -40,10 +40,7 @@ class TestLoggingSettings:
         """Verify the class signature and fields."""
         assert issubclass(LoggingSettings, BaseSettings)
         assert hasattr(LoggingSettings, "model_config")
-        assert (
-            LoggingSettings.model_config.get("env_prefix")
-            == "TEMPLATE_PYTHON__LOGGING__"
-        )
+        assert LoggingSettings.model_config.get("env_prefix") == "RUSTARIUM__LOGGING__"
         assert "enabled" in LoggingSettings.model_fields
         assert "level" in LoggingSettings.model_fields
 
@@ -73,7 +70,7 @@ class TestConfigureLogger:
             {"enabled": True, "level": "DEBUG", "clear_loggers": True},
             {
                 "enabled": True,
-                "filter": ("template_python", "__main__"),
+                "filter": ("rustarium", "__main__"),
                 "clear_loggers": True,
             },
         ],
@@ -93,7 +90,7 @@ class TestConfigureLogger:
         """
         settings_obj = LoggingSettings(enabled=True, otel_formatting="enable")
         with (
-            mock.patch("template_python.logging.opentelemetry_trace", None),
+            mock.patch("rustarium.logging.opentelemetry_trace", None),
             pytest.raises(ImportError, match="OpenTelemetry is not installed"),
         ):
             configure_logger(settings_obj)

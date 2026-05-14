@@ -1734,7 +1734,7 @@ wheels = [
 ]
 
 [[package]]
-name = "template-python"
+name = "rustarium"
 source = { editable = "." }
 dependencies = [
     { name = "click" },

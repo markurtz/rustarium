@@ -5,7 +5,7 @@
 
 ## Project Context
 
-**`template-python`** is a production-ready Apache 2.0 template repository for bootstrapping modern software projects.
+**`rustarium`** A high-performance, telemetrized process orchestrator and sandbox for Python and WASM, forged in Rust.
 **Primary language:** `Python 3.10+`\
 **Package manager:** `Hatch`
 
@@ -54,7 +54,7 @@
 
 - **`docs/`** and **`mkdocs.yml`** control the site. Do not create docs outside the `nav:` tree.
 - `docs/index.md` dynamically includes `README.md` via MkDocs snippets.
-- Use `{{placeholder}}` variables for templated fields (e.g., `template-python`, `markurtz`).
+- Use `{{placeholder}}` variables for templated fields (e.g., `rustarium`, `markurtz`).
 
 ## Agent Notes
 

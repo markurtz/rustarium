@@ -6,7 +6,7 @@ import types
 
 import pytest
 
-from template_python import compat
+from rustarium import compat
 
 
 @pytest.mark.smoke

@@ -20,17 +20,17 @@ class TestMain:
         [
             (
                 {},
-                ["Hello from template-python", "Settings:"],
+                ["Hello from rustarium", "Settings:"],
                 [],
             ),
             (
                 {
-                    "TEMPLATE_PYTHON__ENVIRONMENT": "production",
-                    "TEMPLATE_PYTHON__LOGGING__FORMAT": "{level} - {message}",
-                    "TEMPLATE_PYTHON__LOGGING__OTEL_FORMATTING": "disable",
+                    "RUSTARIUM__ENVIRONMENT": "production",
+                    "RUSTARIUM__LOGGING__FORMAT": "{level} - {message}",
+                    "RUSTARIUM__LOGGING__OTEL_FORMATTING": "disable",
                 },
                 [
-                    "INFO - Hello from template-python",
+                    "INFO - Hello from rustarium",
                     "INFO - Settings: Settings(environment='production'",
                 ],
                 ["DEBUG"],
@@ -48,7 +48,7 @@ class TestMain:
         env.update(env_vars)
 
         exe_result = subprocess.run(
-            [sys.executable, "-m", "template_python"],
+            [sys.executable, "-m", "rustarium"],
             capture_output=True,
             text=True,
             check=False,

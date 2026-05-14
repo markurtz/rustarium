@@ -1,14 +1,14 @@
 ---
 name: Feature Request
-description: Suggest an idea for template-python
+description: Suggest an idea for rustarium
 labels:
   - "enhancement"
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to suggest a feature for template-python!
-        Before submitting, please ensure you have searched our existing [Issues](https://github.com/markurtz/template-python/issues) and [Discussions](https://github.com/markurtz/template-python/discussions) to see if this feature has already been requested.
+        Thanks for taking the time to suggest a feature for rustarium!
+        Before submitting, please ensure you have searched our existing [Issues](https://github.com/markurtz/rustarium/issues) and [Discussions](https://github.com/markurtz/rustarium/discussions) to see if this feature has already been requested.
   - type: textarea
     id: problem
     attributes:
